@@ -1,0 +1,11 @@
+# NLP Disaster Tweets Project - Week 4 Assignment
+
+In this competition, the challenge is to build a machine learning model that predicts which Tweets are about real disasters and which one’s aren’t.
+A dataset of 10,000 tweets that were hand classified is available. 
+- id
+- keyword: A keyword from that tweet (although this may be blank!)
+- location: The location the tweet was sent from (may also be blank)
+- text: The text of a tweet
+- target: 1 if the tweet is a real disaster or 0 if not
+
+__This notebook uses the [DistilBERT](https://arxiv.org/abs/1910.01108) pretrained model from KerasNLP.__
